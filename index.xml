@@ -1,0 +1,40 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Microcontroller controlled chemical reactions - Titration</title>
+    <link>http://stonkiometry.github.io/</link>
+    <description>Recent content on Microcontroller controlled chemical reactions - Titration</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language>
+    <lastBuildDate>Fri, 30 Dec 2022 18:22:28 -0500</lastBuildDate><atom:link href="http://stonkiometry.github.io/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Conclusions</title>
+      <link>http://stonkiometry.github.io/posts/results/</link>
+      <pubDate>Fri, 30 Dec 2022 18:22:28 -0500</pubDate>
+      
+      <guid>http://stonkiometry.github.io/posts/results/</guid>
+      <description>Conclusion We have automated and controlled titration of Citric acid against Sodium Hydroxide. Considering our program, it can detect most color changes, however it does have it flaws. We used a magnetic stirrer so that the color settles or dissipates faster. It also needs an appreciable difference in the color that the solution turns to. For future scope we could add a stopwatch or timer to measure the duration of the reaction.</description>
+    </item>
+    
+    <item>
+      <title>ProjectProgress</title>
+      <link>http://stonkiometry.github.io/posts/projectprogress/</link>
+      <pubDate>Fri, 30 Dec 2022 18:22:16 -0500</pubDate>
+      
+      <guid>http://stonkiometry.github.io/posts/projectprogress/</guid>
+      <description>Progress: We are using the APDS9960 to sense the color change when the reaction has completed. To set this up we used the i2c_bus_scan code from the pico_examples as a reference. In order to compare current data and previous data, we have set up structures, variables and counters to emulate a ring buffer. This setup constantly maintains track of the color it senses. Program is exited when the endpoint is reached.</description>
+    </item>
+    
+    <item>
+      <title>Problemstatement</title>
+      <link>http://stonkiometry.github.io/posts/problemstatement/</link>
+      <pubDate>Fri, 30 Dec 2022 18:21:23 -0500</pubDate>
+      
+      <guid>http://stonkiometry.github.io/posts/problemstatement/</guid>
+      <description>Proposal We wish to use microcontrollers to control a chemical reaction. As an example we have chosen Titration. This is mainly because this is a slightly less complicated chemical reaction, with a stable endpoint following which no reaction will occur. The link to our complete proposal: https://github.com/harishramesh98/Project_Team_Stonkiometry/blob/7acee29b5e772328fcbecf8f17a8a46d4d0e9c68/Proposal/ESE_5190_PROJECT_PROPOSAL_TEAM_STONKIOMETRY.pdf
+Functionality to be implemented as a part of the proposal Primary Objectives:
+Firstly we want to be able to sense the color change. We want to be able to rotate open and close the burette&amp;rsquo;s knob.</description>
+    </item>
+    
+  </channel>
+</rss>
